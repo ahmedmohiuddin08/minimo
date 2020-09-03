@@ -1,0 +1,249 @@
+/* font-family: 'Playfair Display', serif;  */
+/* font-family: Ubuntu-light; */
+
+@font-face {
+  src: url(../fonts/Ubuntu-L.ttf);
+  font-family: Ubuntu-light;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  color: #626262;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+/* header start  */
+header {
+  padding: 20px 0;
+}
+
+.logo {
+  width: 10%;
+  float: left;
+  margin: auto 0;
+}
+.logo img {
+  width: 100%;
+  margin-top: 13px;
+}
+.menu {
+  width: 70%;
+  float: right;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  list-style: none;
+  float: left;
+}
+.menu ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 0;
+  margin: 0 60px;
+  color: #626262;
+  position: relative;
+}
+
+.menu ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0.5px;
+  transition: 200ms all;
+  background-color: #626262;
+}
+.menu ul li:last-child a {
+  margin-right: 0;
+}
+.menu ul li a:hover::after {
+  width: 100%;
+  transition: 500ms all;
+}
+
+/* header end  */
+/* banner start */
+.banner {
+}
+.b_img {
+}
+.b_img img {
+  width: 100%;
+}
+/* banner end  */
+/* gateaway start  */
+.p-tb-75 {
+  padding: 55px 0;
+}
+.gateaway {
+}
+.container-2 {
+  width: 80%;
+  margin: 0 auto;
+}
+.g-content {
+}
+.light {
+  font-family: Ubuntu-light;
+  font-size: 14px;
+  font-weight: 400;
+  color: #b4ad9e;
+  text-transform: uppercase;
+}
+
+.c-title {
+  font-family: 'Playfair Display', serif;
+  font-weight: regular;
+  color: #626262;
+  margin: 25px 0 30px 0;
+  font-size: 30px;
+}
+
+.c-p {
+  line-height: 25px;
+  word-spacing: 2px;
+  margin: 0 0 45px 0;
+}
+/* gateaway end  */
+/* blog start  */
+.mb-130 {
+  margin-bottom: 130px;
+}
+.blog {
+  overflow: hidden;
+}
+.b-content {
+}
+.single {
+  width: 47%;
+  float: left;
+  overflow: hidden;
+}
+
+.single:nth-child(even) {
+  margin-left: 6%;
+}
+.single img {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.mb-remove {
+  margin-bottom: 0;
+}
+
+/* blog end  */
+/* newsletter start  */
+.m-tb-75 {
+  margin: 75px 0;
+  letter-spacing: 1px;
+}
+.news {
+  min-height: 290px;
+  background-color: #f0f0f0;
+}
+.news-content {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+.n-input {
+}
+.n-input-text {
+  width: 360px;
+  position: relative;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid #626262;
+  padding: 10px 0;
+}
+
+.n-input-text:active {
+  border: none;
+  border-bottom: 1px splid #626262;
+}
+
+.n-input-text::placeholder {
+  font-family: 'Playfair Display', serif;
+}
+.n-btn {
+  position: absolute;
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  /* margin-left: -15px; */
+}
+.n-btn img {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}
+/* newsletter end  */
+/* blog 2 star  */
+.blog-2 {
+  padding: 100px 0 0 0;
+  overflow: hidden;
+}
+/* blog 2 end  */
+/* btn div  */
+.btn-div {
+  text-align: center;
+  padding: 80px 0 200px 0;
+  overflow: hidden;
+}
+
+.load-btn {
+  margin: 0 auto;
+  color: #626262;
+  text-decoration: none;
+  padding: 20px 35px;
+  border: 1px solid #626262;
+  border-top: 2px solid #626262;
+
+  transition: 200ms ease-in-out;
+}
+
+.load-btn:hover {
+  color: #f0f0f0;
+  background-color: #626262;
+
+  transition: 200ms ease-in-out;
+}
+/* button div  */
+/* footer start  */
+.footer {
+  background-color: #f0f0f0;
+  overflow: hidden;
+  padding: 15px 0;
+}
+.f-content p {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 14px;
+}
+.terms {
+  width: 20%;
+  float: left;
+}
+.s-media {
+  width: 15%;
+  float: right;
+}
+
+.s-media a {
+  margin: 0 8px;
+  color: #626262;
+  font-size: 14px;
+}
+/* footer end  */
